@@ -1,0 +1,9 @@
+*.swp
+a.img
+boot
+boot.o
+head
+head.o
+system
+System.map
+bochsout.txt
