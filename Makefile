@@ -27,7 +27,7 @@ system:	head.o
 run: a.img
 	bochs -q -f ./linux.bxrc
 win: a.img
-	bochs -q -f ./win.bxrc
+	bochs.exe -q -f ./win.bxrc
 x: a.img
 	bochs -q -f ./x.bxrc
 
