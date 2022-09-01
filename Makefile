@@ -31,5 +31,8 @@ win: a.img
 x: a.img
 	bochs -q -f ./x.bxrc
 
+wsl: a.img
+	bochsdbg.exe -q -f ./wsl.bxrc
+
 clean:
 	rm -rf a.img boot boot.o head head.o system System.map bochsout.txt
